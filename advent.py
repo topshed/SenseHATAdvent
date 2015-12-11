@@ -22,7 +22,7 @@ day = dt.date.today().day
 #Advent calendar ends on Xmas Eve
 if day > 24:
     day = 24
-day = 5 #testing
+#day = 5 #testing
 #Lists of pngs and animations for each day
 pngs = [2,3,4,6,7,8,9,11,12,13,14,16,17,18,19,21,22]
 anis = [1,5,10,15,20,23,24]
@@ -53,7 +53,7 @@ def setDay(): #Create colour grid
     day = dt.date.today().day
     if day > 24:
         day = 24
-    day = 5 #testing
+   # day = 5 #testing
     print('drawing grid')
     global x
     global y
